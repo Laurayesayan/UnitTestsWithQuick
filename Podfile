@@ -4,7 +4,7 @@
 target 'UnitTestsWithQuick_2_18' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-
+  pod 'RealmSwift'
   # Pods for UnitTestsWithQuick_2_18
 
   target 'UnitTestsWithQuick_2_18Tests' do

@@ -17,6 +17,7 @@
 		F7CC914B24781A06009326A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7CC914924781A06009326A6 /* LaunchScreen.storyboard */; };
 		F7CC915624781A06009326A6 /* UnitTestsWithQuick_2_18Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CC915524781A06009326A6 /* UnitTestsWithQuick_2_18Tests.swift */; };
 		F7CC916124781B94009326A6 /* ArraySorter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CC916024781B94009326A6 /* ArraySorter.swift */; };
+		F7CC916324782D8E009326A6 /* Human.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CC916224782D8E009326A6 /* Human.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		F7CC915524781A06009326A6 /* UnitTestsWithQuick_2_18Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestsWithQuick_2_18Tests.swift; sourceTree = "<group>"; };
 		F7CC915724781A06009326A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7CC916024781B94009326A6 /* ArraySorter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraySorter.swift; sourceTree = "<group>"; };
+		F7CC916224782D8E009326A6 /* Human.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Human.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				F7CC913E24781A04009326A6 /* AppDelegate.swift */,
 				F7CC916024781B94009326A6 /* ArraySorter.swift */,
 				F7CC914724781A06009326A6 /* Assets.xcassets */,
+				F7CC916224782D8E009326A6 /* Human.swift */,
 				F7CC914C24781A06009326A6 /* Info.plist */,
 				F7CC914924781A06009326A6 /* LaunchScreen.storyboard */,
 				F7CC914424781A04009326A6 /* Main.storyboard */,
@@ -145,6 +148,7 @@
 				F7CC913724781A04009326A6 /* Sources */,
 				F7CC913824781A04009326A6 /* Frameworks */,
 				F7CC913924781A04009326A6 /* Resources */,
+				6A9FCB0DAC7CD7A233797F55 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -278,6 +282,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		6A9FCB0DAC7CD7A233797F55 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UnitTestsWithQuick_2_18/Pods-UnitTestsWithQuick_2_18-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UnitTestsWithQuick_2_18/Pods-UnitTestsWithQuick_2_18-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UnitTestsWithQuick_2_18/Pods-UnitTestsWithQuick_2_18-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		B42471F7592A8AE37D2F95BB /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -304,6 +325,7 @@
 			files = (
 				F7CC914324781A04009326A6 /* ViewController.swift in Sources */,
 				F7CC913F24781A04009326A6 /* AppDelegate.swift in Sources */,
+				F7CC916324782D8E009326A6 /* Human.swift in Sources */,
 				F7CC916124781B94009326A6 /* ArraySorter.swift in Sources */,
 				F7CC914124781A04009326A6 /* SceneDelegate.swift in Sources */,
 			);
