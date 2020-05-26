@@ -64,6 +64,7 @@ class UnitTestsWithQuick_2_18Tests: QuickSpec {
                 expect(weatherDicts[0].hourly.temperature).to(equal(284.01))
                 expect(weatherDicts[0].hourly.rainProbability).to(beNil())
                 expect(weatherDicts[1].hourly.rainProbability).to(equal(0.13))
+                expect(weatherDicts[1].hourly.windSpeed).to(equal(0.88))
             }
             e.fulfill()
         }
