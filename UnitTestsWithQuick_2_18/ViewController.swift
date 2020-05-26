@@ -9,9 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+//    var weatherDicts: [WeatherDict] = []
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+//        WeatherLoader().loadHourlyWeather { weatherDict in
+//            self.weatherDicts = weatherDict
+//        }
     }
 }
 
